@@ -1,0 +1,25 @@
+{
+    "folder": {
+        "shortid": "V45Z6C4"
+    },
+    "shortid": "HyARB7_7E",
+    "name": "purchase-xlsx",
+    "recipe": "xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1548409942426
+    },
+    "_id": "3NQdlVTMK1Abe8AM",
+    "$entitySet": "templates",
+    "scripts": [
+        {
+            "shortid": "SJhKN4vmN"
+        }
+    ],
+    "xlsxTemplate": {
+        "shortid": "BJmC44vX4"
+    }
+}

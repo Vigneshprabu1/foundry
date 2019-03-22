@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css">
+   
+        <!-- add hiden information to the page which is resolved in OrdersHeader template
+             during the pdf merge. See the docs about pdf utils extension for more details. -->
+      <h1>Report Details</h1><br>
+        <table class='table striped'>
+            <thead>
+                <tr>
+                    <th>Invoice No</th>
+                    <th>Invoice Date</th>
+                    <th>Stock No</th>
+                    <th>Vendor Name</th>
+                    <th>Vendor Type</th>
+                    <th>Item Name</th>
+                    <th>Item Type</th>
+                    <th>Weight</th>
+                    <th>Amount</th>
+                    <th>Delivery Date</th>
+                    <th>Order Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                  {{#each items}}
+                <tr>
+                    <td>{{invoiceNo}}</td>
+                    <td>{{#batchDateTime invoiceDate}}{{/batchDateTime}}</td>
+                    <td>{{stockNo}}</td>
+                    <td>{{vendorName}}</td>
+                    <td>{{vendorType}}</td>
+                    <td>{{itemName}}</td>
+                    <td>{{itemType}}</td>
+                    <td>{{weight}}</td>
+                     <td>{{totalAmount}}</td>
+                    <td>{{#batchDateTime deliveryDate}}{{/batchDateTime}}</td>
+                    <td>{{#batchDateTime orderDate}}{{/batchDateTime}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        <div style='page-break-after: always;'>
+        </div>
+  </body>
+</html>

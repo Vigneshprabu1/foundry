@@ -1,0 +1,23 @@
+[
+    {
+        "vendorId": "1",
+        "vendorName": "Ram",
+        "mobile": "9876543210",
+        "email": "admin@gmail.com",
+        "address": "chennai"
+    },
+    {
+        "vendorId": "2",
+        "vendorName": "Vijay",
+        "mobile": "9876543210",
+        "email": "admin@gmail.com",
+        "address": "chennai"
+    },
+    {
+        "vendorId": "3",
+        "vendorName": "Kumar",
+        "mobile": "9876543210",
+        "email": "admin@gmail.com",
+        "address": "chennai"
+    }
+]

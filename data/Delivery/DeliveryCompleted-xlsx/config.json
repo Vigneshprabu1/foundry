@@ -1,0 +1,25 @@
+{
+    "folder": {
+        "shortid": "iOvp80m"
+    },
+    "shortid": "S1dMpOOmN",
+    "name": "DeliveryCompleted-xlsx",
+    "recipe": "xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1548830091847
+    },
+    "_id": "EsTUockTUHtHVmJw",
+    "$entitySet": "templates",
+    "scripts": [
+        {
+            "shortid": "SyGD6d_XV"
+        }
+    ],
+    "xlsxTemplate": {
+        "shortid": "rJA8raCX4"
+    }
+}

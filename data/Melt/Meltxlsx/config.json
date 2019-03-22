@@ -1,0 +1,25 @@
+{
+    "folder": {
+        "shortid": "RuEw7yQ"
+    },
+    "shortid": "ryvK1uOQV",
+    "name": "Meltxlsx",
+    "recipe": "xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "scripts": [
+        {
+            "shortid": "HJF9J_O7N"
+        }
+    ],
+    "xlsxTemplate": {
+        "shortid": "r122kdOmN"
+    },
+    "modificationDate": {
+        "$$date": 1548423374283
+    },
+    "_id": "WzUKMtOWIWQqPLdr",
+    "$entitySet": "templates"
+}

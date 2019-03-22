@@ -1,0 +1,22 @@
+{{#each items}}
+    
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+    <row>
+        <c t="inlineStr"><is><t></t></is></c>
+        <c t="inlineStr"><is><t>{{#batchDateTime orderDate}}{{/batchDateTime}}</t></is></c>
+       <c t="inlineStr"><is><t>{{orderId}}</t></is></c>
+       <c t="inlineStr"><is><t>{{customerName}}</t></is></c>
+        <c t="inlineStr"><is><t>{{#batchDateTime deliveryDate}}{{/batchDateTime}}</t></is></c>
+        <c t="inlineStr"><is><t>{{meltNo}}</t></is></c>
+        <c t="inlineStr"><is><t>{{batchId}}</t></is></c>
+        <c t="inlineStr"><is><t>{{partId}}</t></is></c>
+        <c t="inlineStr"><is><t>{{partWeight}}</t></is></c>
+        <c t="inlineStr"><is><t>{{quantity}}</t></is></c>
+        <c t="inlineStr"><is><t>{{totalWeight}}</t></is></c>
+        <c t="inlineStr"><is><t>{{yieldWeight}}</t></is></c>
+         <c t="inlineStr"><is><t>{{rejectionWeight}}</t></is></c>
+         <c t="inlineStr"><is><t>{{returnWeight}}</t></is></c>
+    </row>
+{{/xlsxAdd}}
+{{/each}}
+{{{xlsxPrint}}}

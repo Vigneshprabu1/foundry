@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css">
+        <!-- add hiden information to the page which is resolved in OrdersHeader template
+             during the pdf merge. See the docs about pdf utils extension for more details. -->
+      <h1>Report Details</h1><br>
+        <table class='table striped'>
+            <thead>
+                <tr>
+                    <th>Part Id</th>
+                    <th>Order Id</th>
+                    <th>Melt No </th>
+                    <th>Batch Id</th>
+                    <th>Item Name</th>
+                    <th>Item Type</th>
+                    <th>Melt Date</th>
+                    <th>Raw Material Total Weight</th>
+                    <th>Consumable Totala Weight</th>
+                    <th>Per Kg Cost</th>
+                    <th>Total Cost Raw Material</th>
+                    <th>Total Cost Consumables</th>
+                </tr>
+            </thead>
+            <tbody>
+                  {{#each items}}
+                <tr>
+                    <td>{{partId}}</td>
+                    <td>{{orderId}}</td>
+                    <td>{{meltNo}}</td>
+                    <td>{{batchId}}</td>
+                    <td>{{itemName}}</td>
+                    <td>{{itemType}}</td>
+                    <td>{{#batchDateTime meltDate}}{{/batchDateTime}}</td>
+                    <td>{{rawMaterialTotalWeight}}</td>
+                    <td>{{consumableTotalWeight}}</td>
+                    <td>{{perKgCost}}</td>
+                    <td>{{totalCostRawMaterial}}</td>
+                    <td>{{totalCostConsumables}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        <div style='page-break-after: always;'>
+        </div>
+  </body>
+</html>

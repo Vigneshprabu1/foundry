@@ -1,0 +1,22 @@
+{
+    "folder": {
+        "shortid": "RuEw7yQ"
+    },
+    "shortid": "H1wDyd_XV",
+    "name": "Meltpdf",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1548417029967
+    },
+    "_id": "vNnjFtTnu8udFI6o",
+    "$entitySet": "templates",
+    "scripts": [
+        {
+            "shortid": "HJF9J_O7N"
+        }
+    ]
+}

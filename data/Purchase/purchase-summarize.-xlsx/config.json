@@ -1,0 +1,25 @@
+{
+    "folder": {
+        "shortid": "V45Z6C4"
+    },
+    "shortid": "rkALU7_QV",
+    "name": "purchase-summarize.-xlsx",
+    "recipe": "xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1548410091810
+    },
+    "_id": "07NKvtuYuGvL7Qz3",
+    "$entitySet": "templates",
+    "scripts": [
+        {
+            "shortid": "SJhKN4vmN"
+        }
+    ],
+    "xlsxTemplate": {
+        "shortid": "Bkg8L4_74"
+    }
+}

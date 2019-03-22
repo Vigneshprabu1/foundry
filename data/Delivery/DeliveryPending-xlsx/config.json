@@ -1,0 +1,17 @@
+{
+    "folder": {
+        "shortid": "iOvp80m"
+    },
+    "shortid": "SyZIpOuXN",
+    "name": "DeliveryPending-xlsx",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1548423374287
+    },
+    "_id": "dVVvcowPwohdSXtI",
+    "$entitySet": "templates"
+}

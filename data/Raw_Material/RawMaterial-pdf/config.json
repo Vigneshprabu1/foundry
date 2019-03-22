@@ -1,0 +1,22 @@
+{
+    "folder": {
+        "shortid": "5b9S2km"
+    },
+    "shortid": "B1DCqFumE",
+    "name": "RawMaterial-pdf",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "scripts": [
+        {
+            "shortid": "rkEejKd7V"
+        }
+    ],
+    "modificationDate": {
+        "$$date": 1548848305655
+    },
+    "_id": "jAzkLGKK6p3SynKH",
+    "$entitySet": "templates"
+}

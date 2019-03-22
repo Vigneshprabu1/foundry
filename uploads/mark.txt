@@ -1,0 +1,1 @@
+Melting is performed in a furnace. Virgin material, external scrap, internal scrap, and alloying elements are used to charge the furnace.

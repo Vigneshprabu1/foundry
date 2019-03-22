@@ -1,0 +1,27 @@
+[
+  {
+    "_id":"ghdsfgdeeehdfhf",
+    "customerName": "mary",
+    "productName": "screw",
+    "productType": "iron",
+    "meltWeight":"50kg",
+    "partQty": 50,
+    "partWeight":"500gm",
+    "totalPartWeight":"50kg",
+    "delDate":"10/10/2018"
+
+  },
+  {
+    "_id":"ghdsfgdeeehdfhf",
+    "customerName": "mary",
+    "productName": "screw",
+    "productType": "iron",
+    "meltWeight":"50kg",
+    "partQty": 50,
+    "partWeight":"500gm",
+    "totalPartWeight":"50kg",
+    "delDate":"10/10/2018"
+
+  }
+
+]

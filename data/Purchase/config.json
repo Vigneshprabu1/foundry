@@ -1,0 +1,10 @@
+{
+    "name": "Purchase",
+    "shortid": "V45Z6C4",
+    "creationDate": "2019-01-24T11:29:36.482Z",
+    "_id": "rQF6RKBEEmjQr0ls",
+    "$entitySet": "folders",
+    "modificationDate": {
+        "$$date": 1548329509178
+    }
+}

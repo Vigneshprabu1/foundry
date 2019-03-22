@@ -1,0 +1,25 @@
+{
+    "folder": {
+        "shortid": "5b9S2km"
+    },
+    "shortid": "BJU1jK_m4",
+    "name": "RawMaterial-xlsx",
+    "recipe": "xlsx",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "scripts": [
+        {
+            "shortid": "rkEejKd7V"
+        }
+    ],
+    "xlsxTemplate": {
+        "shortid": "BJ0WjKdQ4"
+    },
+    "modificationDate": {
+        "$$date": 1548848574856
+    },
+    "_id": "evgzPPmSSnfjZltr",
+    "$entitySet": "templates"
+}

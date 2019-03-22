@@ -1,0 +1,22 @@
+{
+    "folder": {
+        "shortid": "V45Z6C4"
+    },
+    "shortid": "SkbIL7dQ4",
+    "name": "purchase-summarize.-pdf",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1548409942426
+    },
+    "_id": "wQtBimRkrGOODifz",
+    "$entitySet": "templates",
+    "scripts": [
+        {
+            "shortid": "SJhKN4vmN"
+        }
+    ]
+}

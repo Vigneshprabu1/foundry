@@ -1,0 +1,30 @@
+[
+  {
+    "customerId":"1",
+    "customerName":"Murugan",
+    "mobileNo":"9750733641",
+    "emailId":"muruganp1510@gmail.com",
+    "address":"chennai"
+  },
+  {
+    "customerId":"2",
+    "customerName":"Suvetha",
+    "mobileNo":"9750733641",
+    "emailId":"suvetha@gmail.com",
+    "address":"chennai"
+  },
+  {
+    "customerId":"3",
+    "customerName":"Hari",
+    "mobileNo":"9750733641",
+    "emailId":"hari@gmail.com",
+    "address":"chennai"
+  },
+  {
+    "customerId":"4",
+    "customerName":"Maha",
+    "mobileNo":"9750733641",
+    "emailId":"maha@gmail.com",
+    "address":"chennai"
+  }
+]

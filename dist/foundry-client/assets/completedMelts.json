@@ -1,0 +1,38 @@
+[
+  {
+    "_id":"ghdsfgdhdfhf",
+    "meltNo": 1,
+    "customerName": "Hogen",
+    "productName": "fg",
+    "productType": "tgff",
+    "partQtyDelivered": "45",
+    "deliveryDate": "10/2/2016",
+    "balQty": "0",
+    "returnWeight": 345.88,
+    "rejectionWeight":11.65
+  },
+  {
+    "_id":"ghdsfgdeeehdfhf",
+    "meltNo": 2,
+    "customerName": "xyz",
+    "productName": "AB",
+    "productType": "iron",
+    "partQtyDelivered": "50",
+    "deliveryDate": "10/2/2016",
+    "balQty": "50",
+    "returnWeight": 345.88,
+    "rejectionWeight":12.60
+  },
+  {
+    "_id":"ghdsfgdhdjhjhfhf",
+    "meltNo": 3,
+    "customerName": "raj",
+    "productName": "pq",
+    "productType": "tgff",
+    "partQtyDelivered": "50",
+    "deliveryDate": "10/2/2016",
+    "balQty": "50",
+    "returnWeight": 345.88,
+    "rejectionWeight": 30.65
+  }
+]

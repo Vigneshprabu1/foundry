@@ -1,0 +1,764 @@
+2019-01-04T09:44:20.646Z - error: Error when performing remote sync Error: Error when trying to parse file at "samples\MongoDb\Product_list\config.json", check that file constains valid JSON. Unexpected end of JSON input
+    at parseFiles (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:74:18)
+2019-01-04T09:46:21.294Z - error: Error when processing OData DELETE: /odata/templates(IR6Cn7YvwzDx8lww) Error: Can not find parent folder for entity "Product_list" (entitySet: templates)
+    at getDirectoryPath (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:18:13)
+    at remove (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:223:40)
+    at lock (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:296:46)
+    at lock (D:\VS_WS\Node_WS\Foundry\node_modules\jsreport-fs-store\lib\persistence.js:287:18)
+2019-01-04T09:46:34.610Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.626Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.641Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.656Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.674Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.687Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:46:34.702Z - error: Error when performing remote sync Error: EPERM: operation not permitted, stat 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDb\demo'
+2019-01-04T09:54:38.693Z - error: Error when processing OData PATCH: /odata/folders(JzS23P83cNF8JCKj) Error: ENOENT: no such file or directory, scandir 'D:\VS_WS\Node_WS\Foundry\data\samples\MongoDB'
+2019-01-05T09:25:23.083Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\VS_WS\Foundry_Report\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-05T09:25:23.088Z - error: Error during processing request at http://localhost:5400/api/report
+2019-01-05T09:25:23.094Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\VS_WS\Foundry_Report\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-05T09:25:23.094Z - error: Error during processing request at http://localhost:5400/api/report
+2019-01-24T06:42:19.480Z - error: Error when processing OData PATCH: /odata/scripts(2C43czG1LZu3Pt6x) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~get_productlist_script~get_productlist_script' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\get_productlist_script'
+2019-01-24T06:42:29.676Z - error: Error when processing OData PATCH: /odata/scripts(2C43czG1LZu3Pt6x) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~get_productlist_script~get_productlist_script' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~get_productlist_script~get_productlist_script'
+2019-01-24T06:58:41.410Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout (D:\BACKUP\VP\Foundry_Report\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+2019-01-24T06:58:41.412Z - error: Error during processing request at http://localhost:5400/api/report
+2019-01-24T07:21:30.252Z - error: Error when processing OData PATCH: /odata/templates(06JN159dOknSUiNI) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~Product_list~Product_list' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\Product_list'
+2019-01-24T07:21:36.893Z - error: Error when processing OData PATCH: /odata/templates(06JN159dOknSUiNI) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~Product_list~Product_list' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~Product_list~Product_list'
+2019-01-24T07:21:45.036Z - error: Error when processing OData PATCH: /odata/templates(06JN159dOknSUiNI) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~Product_list~Product_list' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~Product_list~Product_list'
+2019-01-24T07:21:45.213Z - error: Error when processing OData PATCH: /odata/scripts(2C43czG1LZu3Pt6x) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~get_productlist_script~get_productlist_script' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\get_productlist_script'
+2019-01-24T07:22:17.110Z - error: Error when processing OData PATCH: /odata/templates(06JN159dOknSUiNI) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~Product_list~Product_list' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~Product_list~Product_list'
+2019-01-24T07:22:45.483Z - error: Error when processing OData PATCH: /odata/templates(06JN159dOknSUiNI) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~Product_list~Product_list' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~Product_list~Product_list'
+2019-01-24T07:26:26.542Z - error: Error when processing OData PATCH: /odata/templates(06JN159dOknSUiNI) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~Product_list~Product_list' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~Product_list~Product_list'
+2019-01-24T07:32:29.466Z - error: Error when processing OData PATCH: /odata/templates(06JN159dOknSUiNI) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~Product_list~Product_list' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~Product_list~Product_list'
+2019-01-24T07:35:48.076Z - error: Error when processing OData PATCH: /odata/scripts(2C43czG1LZu3Pt6x) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~get_productlist_script~get_productlist_script' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~get_productlist_script~get_productlist_script'
+2019-01-24T07:37:52.662Z - error: Error when processing OData PATCH: /odata/scripts(2C43czG1LZu3Pt6x) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~get_productlist_script~get_productlist_script' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~get_productlist_script~get_productlist_script'
+2019-01-24T07:40:02.632Z - error: Error when processing OData PATCH: /odata/scripts(2C43czG1LZu3Pt6x) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~get_productlist_script~get_productlist_script' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~get_productlist_script~get_productlist_script'
+2019-01-24T07:42:31.535Z - error: Error when processing OData PATCH: /odata/scripts(2C43czG1LZu3Pt6x) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~get_productlist_script~get_productlist_script' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~get_productlist_script~get_productlist_script'
+2019-01-24T07:43:44.844Z - error: Error when processing OData PATCH: /odata/scripts(2C43czG1LZu3Pt6x) Error: EPERM: operation not permitted, rename 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~~get_productlist_script~get_productlist_script' -> 'D:\BACKUP\VP\Foundry_Report\data\Report_pdf\~get_productlist_script~get_productlist_script'
+2019-01-24T08:37:54.572Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout (D:\BACKUP\VP\Foundry_Report\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+2019-01-24T08:37:54.575Z - error: Error during processing request at http://localhost:5400/api/report/
+2019-01-24T11:31:31.814Z - error: Error when processing OData PATCH: /odata/folders(C6kWloIj2ZoNMWFD) Error: EPERM: operation not permitted, rename 'D:\Foundry Project\foundry-server\data\~~order~Order' -> 'D:\Foundry Project\foundry-server\data\~order~Order'
+2019-01-25T06:17:57.734Z - error: Error when processing OData PATCH: /odata/scripts(9zK0jWuGP9MF8aM8) Error: EPERM: operation not permitted, rename 'D:\Foundry Project\foundry-server\data\Purchase\~pruchase-script~pruchase-script' -> 'D:\Foundry Project\foundry-server\data\Purchase\pruchase-script'
+2019-01-25T06:19:01.074Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout (D:\Foundry Project\foundry-server\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-25T06:19:01.079Z - error: Error during processing request at http://localhost:5400/api/report/purchase-pdf
+2019-01-25T06:38:54.412Z - error: Error during processing request at http://localhost:5400/api/report/purchase-pdf, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-25T09:52:07.724Z - error: Error when processing OData PATCH: /odata/templates(07NKvtuYuGvL7Qz3) Error: EPERM: operation not permitted, rename 'D:\Foundry Project\foundry-server\data\Purchase\~purchase-summarize.-xlsx~purchase-summarize.-xlsx' -> 'D:\Foundry Project\foundry-server\data\Purchase\purchase-summarize.-xlsx'
+2019-01-25T09:52:28.637Z - error: Error during processing request at http://localhost:5400/api/report/purchase-summarize.-xlsx, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-25T12:08:19.382Z - error: Error during processing request at http://localhost:5400/api/report/Meltxlsx, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-25T12:08:44.961Z - error: Error when processing OData PATCH: /odata/templates(WzUKMtOWIWQqPLdr) Error: EPERM: operation not permitted, rename 'D:\Foundry Project\foundry-server\data\Melt\~Meltxlsx~Meltxlsx' -> 'D:\Foundry Project\foundry-server\data\Melt\Meltxlsx'
+2019-01-25T12:20:27.096Z - error: Error during processing request at http://localhost:5400/api/report/DeliveryCompleted-ptf, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-25T12:21:30.217Z - error: Error when processing OData POST: /odata/scripts Error: The name "DeliveryPending" already exist in the same folder.
+    at module.exports (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\util\createError.js:10:13)
+    at Reporter.createError (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:256:12)
+    at validateDuplicatedName (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\folders\validateDuplicatedName.js:34:20)
+2019-01-25T12:39:40.373Z - error: Error during processing request at http://localhost:5400/api/report/DeliveryCompleted-xlsx, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-25T13:21:27.084Z - error: Error when processing OData POST: /odata/scripts Error: The name "DeliveryPending" already exist in the same folder.
+    at module.exports (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\util\createError.js:10:13)
+    at Reporter.createError (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:256:12)
+    at validateDuplicatedName (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\folders\validateDuplicatedName.js:34:20)
+    at _tickCallback (internal/process/next_tick.js:43:7)
+    at processImmediate (timers.js:605:7)
+2019-01-26T06:48:30.318Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\Foundry Project\foundry-server\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-26T06:48:30.376Z - error: Error during processing request at http://localhost:5400/api/report/RawMaterial-pdf
+2019-01-29T04:46:49.724Z - error: Error when processing OData PATCH: /odata/xlsxTemplates(R4qxa9BP7K4zugjp) Error: EPERM: operation not permitted, rename 'D:\Foundry Project\foundry-server\data\Purchase\~purchase~purchase' -> 'D:\Foundry Project\foundry-server\data\Purchase\purchase'
+2019-01-29T04:48:14.159Z - error: Error during processing request at http://localhost:5400/api/report/purchase-pdf, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\router.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-30T05:44:02.478Z - error: Error during processing request at http://localhost:5400/api/report/DeliveryCompleted-xlsx, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-30T05:57:12.398Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\Foundry Project\foundry-server\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-30T05:57:12.404Z - error: Error during processing request at http://localhost:5400/api/report/
+2019-01-30T06:22:56.414Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\Foundry Project\foundry-server\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-30T06:22:56.418Z - error: Error during processing request at http://localhost:5400/api/report/
+2019-01-30T06:29:47.097Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\Foundry Project\foundry-server\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-30T06:29:47.099Z - error: Error during processing request at http://localhost:5400/api/report/
+2019-01-30T06:32:26.282Z - error: Error when processing OData PATCH: /odata/xlsxTemplates(AGHUz6ze2CnWCjKS) Error: EPERM: operation not permitted, rename 'D:\Foundry Project\foundry-server\data\Delivery\~DeliveryCompleted~DeliveryCompleted' -> 'D:\Foundry Project\foundry-server\data\Delivery\DeliveryCompleted'
+2019-01-30T06:34:58.710Z - error: Error during processing request at http://localhost:5400/api/report/DeliveryCompleted-xlsx, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-30T10:14:57.218Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout (D:\Foundry Project\foundry-server\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-30T10:14:57.228Z - error: Error during processing request at http://localhost:5400/api/report/Meltpdf
+2019-01-30T10:49:13.614Z - error: Error when processing render request Timeout Error: pdf generation not completed after 30000ms Error: Timeout Error: pdf generation not completed after 30000ms
+    at Timeout.setTimeout [as _onTimeout] (D:\Foundry Project\foundry-server\node_modules\jsreport-chrome-pdf\lib\conversion.js:122:19)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+2019-01-30T10:49:13.621Z - error: Error during processing request at http://localhost:5400/api/report/RawMaterial-pdf
+2019-01-30T11:31:11.011Z - error: Error when processing OData PATCH: /odata/templates(jAzkLGKK6p3SynKH) Error: EPERM: operation not permitted, rename 'D:\Foundry Project\foundry-server\data\Raw_Material\~RawMaterial-pdf~RawMaterial-pdf' -> 'D:\Foundry Project\foundry-server\data\Raw_Material\RawMaterial-pdf'
+2019-01-30T11:33:18.266Z - error: Error during processing request at http://localhost:5400/api/report/RawMaterial-pdf, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-30T11:38:33.098Z - error: Error during processing request at http://localhost:5400/api/report/RawMaterial-pdf, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-30T11:43:02.025Z - error: Error during processing request at http://localhost:5400/api/report/RawMaterial-xlsx, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+2019-01-30T11:49:40.920Z - error: Error during processing request at http://localhost:5400/api/report/RawMaterial-xlsx, details: Error: Not initialized, you need to call jsreport.init().then before rendering
+    at Reporter.render (D:\Foundry Project\foundry-server\node_modules\jsreport-core\lib\reporter.js:246:13)
+    at Object.reporter.express.render (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:48:14)
+    at app.post (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:81:22)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Foundry Project\foundry-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:281:22
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\routes.js:15:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at reporter.express.app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-studio\lib\studio.js:69:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at app.use (D:\Foundry Project\foundry-server\node_modules\jsreport-express\lib\reporter.express.js:160:5)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:188:7)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:214:15)
+    at D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\Foundry Project\foundry-server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\Foundry Project\foundry-server\node_modules\body-parser\lib\types\json.js:101:7)
+    at Layer.handle [as handle_request] (D:\Foundry Project\foundry-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Foundry Project\foundry-server\node_modules\express\lib\router\index.js:275:10)
+    at D:\Foundry Project\foundry-server\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:224:16)
+    at done (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Foundry Project\foundry-server\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:182:13)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)

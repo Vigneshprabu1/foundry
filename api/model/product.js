@@ -1,0 +1,43 @@
+const mongoose = require('mongoose');
+
+const productSchema =mongoose.Schema({
+
+    _id:mongoose.Types.ObjectId,
+    productName: String,
+    partType: String,
+    partSubType: String,
+    partId: String,
+    partWeight: String,
+    patternImage: String,
+    MethodImage: String,
+    moldType: String,
+    moldWeight: Number,
+    castWeight: Number,
+    coreWeight: Number,
+    maxWallThickness: String,
+    minWallThickness: String,
+    noOfCavity: Number,
+    noOfCores: Number,
+    coleHoleDiameters: String,
+    shapecomplexity: String,
+    surfaceRoughness: String,
+    tolerance: String,
+    maxCostLength: String,
+    materialGrade: String,
+    runnerWidth: String,
+    runnerDiameter: String,
+    noOfGates: Number,
+    raiserHeight: String,
+    raiserDiameter: String,
+    partCost: Number,
+    quantity: Number,
+    totalWeight: Number,
+    totalCost: Number,
+    createdOn: String,
+    createdBy: String,
+    modifiedOn: String,
+    modifiedBy: String,
+    status: String,
+});
+
+module.exports=mongoose.model('Product',productSchema)

@@ -1,0 +1,22 @@
+{
+    "folder": {
+        "shortid": "iOvp80m"
+    },
+    "shortid": "B1DxpdOXV",
+    "name": "DeliveryCompleted-ptf",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1548423374285
+    },
+    "_id": "DV7qSaUpnFZiS5WP",
+    "$entitySet": "templates",
+    "scripts": [
+        {
+            "shortid": "SyGD6d_XV"
+        }
+    ]
+}

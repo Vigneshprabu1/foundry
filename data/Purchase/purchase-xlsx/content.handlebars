@@ -1,0 +1,20 @@
+{{#each items}}
+    
+{{#xlsxAdd "xl/worksheets/sheet1.xml" "worksheet.sheetData[0].row"}}
+    <row>
+        <c t="inlineStr"><is><t></t></is></c>
+        <c t="inlineStr"><is><t>{{invoiceNo}}</t></is></c>
+        <c t="inlineStr"><is><t>{{#batchDateTime invoiceDate}}{{/batchDateTime}}</t></is></c>
+        <c t="inlineStr"><is><t>{{stockNo}}</t></is></c>
+        <c t="inlineStr"><is><t>{{vendorName}}</t></is></c>
+        <c t="inlineStr"><is><t>{{vendorType}}</t></is></c>
+        <c t="inlineStr"><is><t>{{itemName}}</t></is></c>
+        <c t="inlineStr"><is><t>{{itemType}}</t></is></c>
+        <c t="inlineStr"><is><t>{{weight}}</t></is></c>
+        <c t="inlineStr"><is><t>{{totalAmount}}</t></is></c>
+         <c t="inlineStr"><is><t>{{#batchDateTime deliveryDate}}{{/batchDateTime}}</t></is></c>
+        <c t="inlineStr"><is><t>{{#batchDateTime orderDate}}{{/batchDateTime}}</t></is></c>
+    </row>
+{{/xlsxAdd}}
+{{/each}}
+{{{xlsxPrint}}}

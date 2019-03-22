@@ -1,0 +1,30 @@
+[
+    {
+        "purchaseItemId":"1",
+        "itemName":"Pig iron",
+        "quantity":"500",
+        "unit":"KG",
+        "gst":"18"
+    },
+    {
+        "purchaseItemId":"2",
+        "itemName":"Green Sand",
+        "quantity":"300",
+        "unit":"CFT",
+        "gst":"5"
+    },
+    {
+        "purchaseItemId":"3",
+        "itemName":"Pig iron",
+        "quantity":"500",
+        "unit":"KG",
+        "gst":"18"
+    },
+    {
+        "purchaseItemId":"4",
+        "itemName":"Pig iron",
+        "quantity":"500",
+        "unit":"KG",
+        "gst":"18"
+    }
+]

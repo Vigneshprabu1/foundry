@@ -1,0 +1,17 @@
+{
+    "folder": {
+        "shortid": "iOvp80m"
+    },
+    "shortid": "BykSadd7E",
+    "name": "DeliveryPending-pdf",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1548423374286
+    },
+    "_id": "nmoZNu40a6zDzhXY",
+    "$entitySet": "templates"
+}
